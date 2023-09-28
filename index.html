@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/george-mcnamara-4b46a2194/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/george-mcnamara-4b46a2194/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="total_station_welcome.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>George McNamara</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website contains the Geoportfolio of George McNamara and was made for the Professional Practice (2350) unit at RMIT University. 
+		It has been made for professional and academic purposes.
+		<p>
+		Just to quickly learn a bit more about me, I was born originally in Essex, England and moved to Melbourne, Australia when I was ten and so I have spent most of my life here.
+		I am currently in my third year of the Bachelor of Applied Science (Surveying) (Honours) course which I transfered to after partly completing the
+		Bachelor of Science (Geospatial Science) (Honours) course also at RMIT. I am still learning more about what specific parth of surveying I wish to go down but 
+		I am specifically intrigued by the use of unmanned aerial systems and how we can survey from the air using aerial imagery and Lidar sensors. 
+		</p>
+		<p>
+		In my spare time I enjoying playing sport mainly Soccer and have just started getting in running and joining in Parkrun on saturdays. I hope this website tells you
+		more about me and my journey in surveying!
+		</p>	
+	<img src="self-portrait.jpg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cadastral Survey Practise/h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Land Surveying can be conducted in a variety of forms, whether this is through a property boundary or cadastral sense, or in an engieneering sense.
+		One unit conducted in third year land surveying is Cadastral Surveying Practise which introduces students to the basics of cadastral land surveying
+		in a property sense, specialising in property boundaries, re-establishment surveys and an introduction to using CAD software to draft subdivision surveys.
+		Below are two submitted examples from this assesment which looked at different aspects of cadastral surveying.
+		<ul>
+			<li>Assesment 2a: Parkville Practical Survey - This was a worksheet drawn up after conducting a survey in Parkville and compupations conducted
+				to display the relationship between the occupation and the title.</li>
+			<li>Assesment 3: Plan of Subdivision - This assignment utilized existing subdiviosn plans to be drawn on AutoCad software and submitted as a PDF along
+				along with a facesheet
+			</li>
+		</ul>
+		<p>
+			Below are items listed above that I have created as part of my course:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Assesmnet 2a: Parkville Practical Worksheet</h3></div>
+	<img src=Academic-Gallery/Worksheet.jpg class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+    <div class="bar"><h3>Assesment 3: Plan of Subdivision</h3></div>
+	<img src="Academic-Gallery/Cadastral_Subdivision.jpg" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+ 
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>SIS Analytics</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Before transfering to Land Surveying, I was a Geospatial Science student and one of the unit a part of that course what SIS Analytics which
+		delved deeper into how maps can display quantitative data whether through a digital terraim model or a thematic map.
+
+		For the semester project we had to pose ourself a question or an aim and I decided upon creating a maps that displayed how long it took by bus for students 
+		to get to their high school by bus. The scale chosen was just for a city council region, with Whitehorse the chosen area.
+
+		For this project the main devilerable was a heatmap that displayed the process of how long it took student in certain mesh blocks, the smallest possible area, to get from house to school and this was done in three steps:
+		<ol>
+			<li>Distance and time walking from the house to closest bus stop</li>
+			<li>Distance and time by bus from the bus stop closest to the house to the bus stop closest to the school</li>
+			<li>Distance and time walking from the bus stop closest to the school to the school itself</li>
+		</ol>
+		</p>
+		<p>
+			The data was mostly obtained from Data Victoria and all the processing was conducted using the Network Analysis tool in the mapping software Arcmap.
+			There was extensive data manipulation before the final map was produced as will displayed in the flow chart below. Also below is the final maps what was made.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Network Analysis and Heatmap Flowchart </h3></div>
+	<img src="Academic-Gallery/Flow_chart_sis.jpg" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Commute Times to School by Bus Heatmap</h3></div>
+	<img src="Academic-Gallery/Final_map_project.jpg" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+		This page will briefly cover my work experience (as of OCtober 2023) within land surveying. I have currently only worked for one company being Thinkspatial. This section will describe
+		what i have learned while working in the industry thus far.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Thinkspatial</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="Thinkspatial _logo.png" class="company-logo">
+	<div class="job-title">Undergraduate Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">February 2023 - Present (as of October 2023)</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		My wok at Thinkspatial has been a good introduction to the Surveying industry as a whole giving me oppourtunities to further my knowledge and experiance in surveying.
+		My roles have been a mixture of both office based work as well as field work in the form of visiting various worksites run by various organisations. Thinkspatial is an
+		engieneering specialising surveying company and so all sites visited and worked on have been constructions sites presenting their own challenges. I have learnt the basic 
+		skills of survey setouts, leveling, traversing and picking up as-built items with both total station and GNSS receiver technologies.
+		<p>
+		The office components have mostly consisted of CAD developments and editing as well as helping withh development for Thinkspatial subcompany Civillo. Working here 
+		has given me knowledge that I wouldn't have aquired at university and it continues to enable me to learn and challenge myself as a surveyor.
+		</p>
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="Icons/total-station.png" class="iconimages"></td>
+				<td>Land Surveying</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cadastral Surveying Practi (GEOM2101)</li>
+            <li>Spatial Information Science Analytics (GEOM2210)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+		</tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/total_station" title="total station"> Total Station icon created by Freepik - Flaticon </a></th>
+            <th><img src="Icons/total-station.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Bogdan Rosu - Flaticon</a></th>
+            <th><img src="twitter.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Odeo as part of undergraduate Professional Practice course (GEOMOD10).
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>Suite 4/64 Sutton St, North Melbourne VIC 3051</th>
+				<th>
+					Email George McNamara here:
+					<br><a href = "mailto:s3840765@student.rmit.edu.au">s3840765@student.rmit.edu.au</a>
+				</th>
+				<th>Mobile:
+					<br>0411-450-614
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
